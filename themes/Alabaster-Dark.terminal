@@ -191,6 +191,10 @@
 	dmVy0RcYVHJvb3SAAQgRGiMtMjc7QUhOW2KMjpCVoKmxtL3P0tcAAAAAAAABAQAAAAAA
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
+	<key>TerminalType</key>
+	<string>xterm-256color</string>
+	<key>UseBrightBold</key>
+	<false/>
 	<key>name</key>
 	<string>Alabaster Dark</string>
 	<key>type</key>
