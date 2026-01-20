@@ -1,36 +1,16 @@
 {
-    "publisher": "NicolaiVerbaarschot",
-    "name": "alabaster-variant-theme",
+    "name": "alabaster-variant-terminal-themes",
+    "description": "Terminal color schemes for Alabaster Dark and Alabaster Light themes",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/TheFoolishPupil/alabaster-variant-theme.git"
     },
-    "displayName": "Alabaster Variant Theme",
-    "description": "A theme set inspired by Tonsky's Alabaster",
-    "version": "0.0.6",
-    "engines": {
-        "vscode": "^1.62.0"
-    },
-    "categories": [
-        "Themes"
+    "keywords": [
+        "terminal",
+        "color-scheme",
+        "theme",
+        "alabaster"
     ],
-    "icon": "icon.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Alabaster Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Alabaster Dark-color-theme.json"
-            },
-            {
-                "label": "Alabaster Light",
-                "uiTheme": "vs",
-                "path": "./themes/Alabaster Light-color-theme.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "colr": "^1.2.2",
-        "termcolors": "^0.7.3"
-    }
+    "license": "MIT"
 }

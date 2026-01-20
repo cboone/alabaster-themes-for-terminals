@@ -56,12 +56,3 @@ See the README in each subdirectory for terminal-specific installation instructi
 | Magenta | ![#811abc](https://placehold.co/20x20/811abc/811abc.png) | `#811abc` | ANSI magenta |
 | Cyan | ![#4078a0](https://placehold.co/20x20/4078a0/4078a0.png) | `#4078a0` | ANSI cyan |
 | White | ![#f5f5f5](https://placehold.co/20x20/f5f5f5/f5f5f5.png) | `#f5f5f5` | ANSI white |
-
-## Regenerating Themes
-
-To regenerate all theme files from the source colors:
-
-```bash
-yarn install
-yarn node scripts/convert-to-terminal.js
-```

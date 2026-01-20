@@ -4,37 +4,26 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a VS Code color theme extension called "Alabaster Variant Theme", inspired by Tonsky's Alabaster. It provides both light and dark variants with consistent styling and non-tinted, non-flattened UI design.
+This repository contains terminal color schemes for Alabaster Dark and Alabaster Light themes, inspired by Tonsky's Alabaster. The themes are available for 14 different terminal emulators.
 
 ## Project Structure
 
-- `package.json` - Extension manifest defining theme contributions
-- `themes/Alabaster Dark-color-theme.json` - Dark theme definition (JSON with comments)
-- `themes/Alabaster Light-color-theme.json` - Light theme definition (JSON with comments)
-
-## Development
-
-### Testing Themes
-
-To test theme changes in VS Code:
-
-1. Open this folder in VS Code
-2. Press F5 to launch Extension Development Host
-3. In the new window, select the theme via Command Palette > "Preferences: Color Theme"
-
-### Publishing
-
-The extension is published to the VS Code Marketplace under publisher "NicolaiVerbaarschot".
-
-## Theme Files
-
-The theme JSON files use VS Code's color theme format with:
-
-- `colors` object for UI element colors (editor, sidebar, status bar, etc.)
-- `tokenColors` array for syntax highlighting rules using TextMate scopes
-
-Note: These JSON files contain JavaScript-style comments (`//`) which VS Code's theme parser accepts.
+- `themes/` - Terminal color scheme files organized by terminal emulator
+  - `alacritty/` - Alacritty themes (.toml)
+  - `contour/` - Contour themes (.yml)
+  - `foot/` - foot themes (.ini)
+  - `ghostty/` - Ghostty themes (no extension)
+  - `iterm2/` - iTerm2 themes (.itermcolors)
+  - `kitty/` - Kitty themes (.conf)
+  - `konsole/` - Konsole themes (.colorscheme)
+  - `mintty/` - mintty themes (.minttyrc)
+  - `putty/` - PuTTY themes (.reg)
+  - `terminal-app/` - Terminal.app themes (.terminal)
+  - `tilix/` - Tilix themes (.json)
+  - `warp/` - Warp themes (.yaml)
+  - `wezterm/` - WezTerm themes (.toml)
+  - `windows-terminal/` - Windows Terminal themes (.json)
 
 ## Design Philosophy
 
-From README: The themes avoid "flattening" (where UI elements share background colors) and avoid "tinted" themes (non-gray base colors). UI elements should be visually separated with distinct shades of gray.
+The themes avoid "flattening" (where UI elements share background colors) and avoid "tinted" themes (non-gray base colors). UI elements should be visually separated with distinct shades of gray.
