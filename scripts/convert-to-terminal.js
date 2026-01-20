@@ -47,14 +47,15 @@ const themes = {
 };
 
 // Formats supported by termcolors
+// macOS-only terminals use spaces in filenames
 const termcolorsFormats = [
   { name: 'alacritty', extension: '.toml', directory: 'alacritty' },
-  { name: 'iterm', extension: '.itermcolors', directory: 'iterm2' },
+  { name: 'iterm', extension: '.itermcolors', directory: 'iterm2', useSpaces: true },
   { name: 'kitty', extension: '.conf', directory: 'kitty' },
   { name: 'konsole', extension: '.colorscheme', directory: 'konsole' },
   { name: 'mintty', extension: '.minttyrc', directory: 'mintty' },
   { name: 'putty', extension: '.reg', directory: 'putty' },
-  { name: 'terminalapp', extension: '.terminal', directory: 'terminal-app' },
+  { name: 'terminalapp', extension: '.terminal', directory: 'terminal-app', useSpaces: true },
   { name: 'tilix', extension: '.json', directory: 'tilix' },
   { name: 'windowsTerminal', extension: '.json', directory: 'windows-terminal' },
 ];
@@ -279,12 +280,14 @@ function generateCustomFormat(formatName, themeName, hexColors) {
 // Generate themes
 for (const [themeName, hexColors] of Object.entries(themes)) {
   const colors = parseColors(hexColors);
-  const filename = themeName.replace(/ /g, '-');
+  const hyphenatedFilename = themeName.replace(/ /g, '-');
 
   // Generate termcolors formats
   for (const format of termcolorsFormats) {
     const directoryPath = path.join('themes', format.directory);
     ensureDirectory(directoryPath);
+
+    const filename = format.useSpaces ? themeName : hyphenatedFilename;
 
     let output = termcolors[format.name].export(colors);
     output = postProcess(format.name, output, themeName);
@@ -299,6 +302,7 @@ for (const [themeName, hexColors] of Object.entries(themes)) {
     const directoryPath = path.join('themes', format.directory);
     ensureDirectory(directoryPath);
 
+    const filename = format.useSpaces ? themeName : hyphenatedFilename;
     const output = generateCustomFormat(format.name, themeName, hexColors);
 
     const filePath = path.join(directoryPath, filename + format.extension);
