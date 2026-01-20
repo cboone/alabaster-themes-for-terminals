@@ -1,0 +1,17 @@
+# Alabaster Dark theme for WezTerm
+
+[colors]
+ansi = ['#202020', '#ff7171', '#C3E88D', '#ffb45e', '#5f9dff', '#C792EA', '#89DDFF', '#e7e7e7']
+brights = ['#474747', '#FF5370', '#C3E88D', '#FFCB6B', '#82AAFF', '#C792EA', '#89DDFF', '#ffffff']
+background = '#202020'
+foreground = '#e7e7e7'
+cursor_bg = '#e7e7e7'
+cursor_border = '#e7e7e7'
+cursor_fg = '#202020'
+selection_bg = '#5f9dff'
+selection_fg = '#e7e7e7'
+
+[colors.indexed]
+
+[metadata]
+name = 'Alabaster Dark'

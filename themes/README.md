@@ -7,6 +7,9 @@ Terminal color schemes for Alabaster Dark and Alabaster Light themes.
 | Terminal | Directory | Files |
 |----------|-----------|-------|
 | [Alacritty](https://alacritty.org/) | `alacritty/` | `.toml` |
+| [Contour](https://contour-terminal.org/) | `contour/` | `.yml` |
+| [foot](https://codeberg.org/dnkl/foot) | `foot/` | `.ini` |
+| [Ghostty](https://ghostty.org/) | `ghostty/` | (no extension) |
 | [iTerm2](https://iterm2.com/) | `iterm2/` | `.itermcolors` |
 | [Kitty](https://sw.kovidgoyal.net/kitty/) | `kitty/` | `.conf` |
 | [Konsole](https://konsole.kde.org/) | `konsole/` | `.colorscheme` |
@@ -14,6 +17,8 @@ Terminal color schemes for Alabaster Dark and Alabaster Light themes.
 | [PuTTY](https://www.putty.org/) | `putty/` | `.reg` |
 | [Terminal.app](https://support.apple.com/guide/terminal/welcome/mac) | `terminal-app/` | `.terminal` |
 | [Tilix](https://gnunn1.github.io/tilix-web/) | `tilix/` | `.json` |
+| [Warp](https://www.warp.dev/) | `warp/` | `.yaml` |
+| [WezTerm](https://wezterm.org/) | `wezterm/` | `.toml` |
 | [Windows Terminal](https://github.com/microsoft/terminal) | `windows-terminal/` | `.json` |
 
 ## Quick Start

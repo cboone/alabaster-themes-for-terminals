@@ -1,0 +1,31 @@
+# Alabaster Dark theme for Contour
+# Add this to your contour.yml under color_schemes:
+
+alabaster_dark:
+  default:
+    background: '#202020'
+    foreground: '#e7e7e7'
+  cursor:
+    default: '#e7e7e7'
+    text: '#202020'
+  selection:
+    background: '#5f9dff'
+    foreground: '#e7e7e7'
+  normal:
+    black: '#202020'
+    red: '#ff7171'
+    green: '#C3E88D'
+    yellow: '#ffb45e'
+    blue: '#5f9dff'
+    magenta: '#C792EA'
+    cyan: '#89DDFF'
+    white: '#e7e7e7'
+  bright:
+    black: '#474747'
+    red: '#FF5370'
+    green: '#C3E88D'
+    yellow: '#FFCB6B'
+    blue: '#82AAFF'
+    magenta: '#C792EA'
+    cyan: '#89DDFF'
+    white: '#ffffff'

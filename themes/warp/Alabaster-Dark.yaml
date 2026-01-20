@@ -1,0 +1,25 @@
+# Alabaster Dark theme for Warp
+name: 'Alabaster Dark'
+accent: '#5f9dff'
+background: '#202020'
+foreground: '#e7e7e7'
+details: darker
+terminal_colors:
+  normal:
+    black: '#202020'
+    red: '#ff7171'
+    green: '#C3E88D'
+    yellow: '#ffb45e'
+    blue: '#5f9dff'
+    magenta: '#C792EA'
+    cyan: '#89DDFF'
+    white: '#e7e7e7'
+  bright:
+    black: '#474747'
+    red: '#FF5370'
+    green: '#C3E88D'
+    yellow: '#FFCB6B'
+    blue: '#82AAFF'
+    magenta: '#C792EA'
+    cyan: '#89DDFF'
+    white: '#ffffff'
