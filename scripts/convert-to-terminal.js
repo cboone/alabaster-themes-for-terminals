@@ -46,6 +46,19 @@ const themes = {
   }
 };
 
+// Formats that produce standalone importable files
+const formats = [
+  { name: 'alacritty', extension: '.toml', directory: 'alacritty' },
+  { name: 'iterm', extension: '.itermcolors', directory: 'iterm2' },
+  { name: 'kitty', extension: '.conf', directory: 'kitty' },
+  { name: 'konsole', extension: '.colorscheme', directory: 'konsole' },
+  { name: 'mintty', extension: '.minttyrc', directory: 'mintty' },
+  { name: 'putty', extension: '.reg', directory: 'putty' },
+  { name: 'terminalapp', extension: '.terminal', directory: 'terminal-app' },
+  { name: 'tilix', extension: '.json', directory: 'tilix' },
+  { name: 'windowsTerminal', extension: '.json', directory: 'windows-terminal' },
+];
+
 function parseColors(hexColors) {
   const parsed = {};
   for (const [key, value] of Object.entries(hexColors)) {
@@ -54,12 +67,64 @@ function parseColors(hexColors) {
   return parsed;
 }
 
-for (const [name, hexColors] of Object.entries(themes)) {
-  const colors = parseColors(hexColors);
-  let output = termcolors.terminalapp.export(colors);
-  // Replace default name with actual theme name
-  output = output.replace('<string>terminal.sexy</string>', `<string>${name}</string>`);
-  const filename = name.replace(/ /g, '-') + '.terminal';
-  fs.writeFileSync(path.join('themes', filename), output);
-  console.log(`Generated: themes/${filename}`);
+function ensureDirectory(directoryPath) {
+  if (!fs.existsSync(directoryPath)) {
+    fs.mkdirSync(directoryPath, { recursive: true });
+  }
 }
+
+function postProcess(format, output, themeName) {
+  switch (format) {
+    case 'terminalapp':
+      // Replace default name and add Terminal.app-specific settings
+      output = output.replace('<string>terminal.sexy</string>', `<string>${themeName}</string>`);
+      // Add TerminalType and UseBrightBold before closing </dict>
+      output = output.replace(
+        /(\t<key>type<\/key>\n\t<string>Window Settings<\/string>\n<\/dict>)/,
+        '\t<key>TerminalType</key>\n\t<string>xterm-256color</string>\n\t<key>UseBrightBold</key>\n\t<false/>\n$1'
+      );
+      break;
+    case 'putty':
+      // Replace default session name with theme name
+      output = output.replace(/Default%20Settings/g, themeName.replace(/ /g, '%20'));
+      break;
+    case 'windowsTerminal':
+      // Add name field to the JSON
+      const windowsJson = JSON.parse(output);
+      windowsJson.name = themeName;
+      // Reorder to put name first
+      output = JSON.stringify({ name: windowsJson.name, ...windowsJson }, null, 2);
+      break;
+    case 'tilix':
+      // Add name field to the JSON
+      const tilixJson = JSON.parse(output);
+      tilixJson.name = themeName;
+      output = JSON.stringify({ name: tilixJson.name, ...tilixJson }, null, 2);
+      break;
+    case 'konsole':
+      // Replace default description
+      output = output.replace(/Description=.*/, `Description=${themeName}`);
+      break;
+  }
+  return output;
+}
+
+// Generate themes
+for (const [themeName, hexColors] of Object.entries(themes)) {
+  const colors = parseColors(hexColors);
+  const filename = themeName.replace(/ /g, '-');
+
+  for (const format of formats) {
+    const directoryPath = path.join('themes', format.directory);
+    ensureDirectory(directoryPath);
+
+    let output = termcolors[format.name].export(colors);
+    output = postProcess(format.name, output, themeName);
+
+    const filePath = path.join(directoryPath, filename + format.extension);
+    fs.writeFileSync(filePath, output);
+    console.log(`Generated: ${filePath}`);
+  }
+}
+
+console.log('\nDone!');
