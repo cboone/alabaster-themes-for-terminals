@@ -30,6 +30,7 @@
         ]
     },
     "devDependencies": {
+        "colr": "^1.2.2",
         "termcolors": "^0.7.3"
     }
 }

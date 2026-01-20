@@ -9,6 +9,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "alabaster-variant-theme@workspace:."
   dependencies:
+    colr: "npm:^1.2.2"
     termcolors: "npm:^0.7.3"
   languageName: unknown
   linkType: soft
