@@ -142,9 +142,29 @@ The original Sublime Text package includes five variants:
 
 ## See also
 
-- [Fira Code](https://github.com/tonsky/FiraCode/) - Tonsky's beautiful update of [Fira Mono](https://github.com/mozilla/Fira) for coding, with monospaced ligatures. Pairs very well with Alabaster.
-- ["A case against syntax highlighting"](https://tonsky.me/blog/syntax-highlighting/) - Tonsky's blog post explaining the philosophy behind minimal highlighting.
-- [sublime-scheme-alabaster](https://github.com/tonsky/sublime-scheme-alabaster) - The original Alabaster theme repository with design rationale.
+### [Fira Code](https://github.com/tonsky/FiraCode/)
+
+Tonsky's beautiful update of [Fira Mono](https://github.com/mozilla/Fira) for coding, with monospaced ligatures. Pairs very well with Alabaster.
+
+### ["A case against syntax highlighting"](https://tonsky.me/blog/syntax-highlighting/)
+
+Tonsky's blog post explaining the philosophy behind minimal highlighting.
+
+### [sublime-scheme-alabaster](https://github.com/tonsky/sublime-scheme-alabaster)
+
+The original Alabaster theme repository with design rationale.
+
+### [Writer color theme](https://github.com/tonsky/sublime-scheme-writer)
+
+Tonsky's color theme for focused long-form writing, inspired by [iA Writer](https://ia.net/writer), in its original Sublime Text form.
+
+Also available as [a VSCode color theme](https://github.com/cboone/writer-theme-vscode), ported by [me](https://cboone.github.io).
+
+## Credits
+
+Original theme by [Nikita Prokopov (aka Tonsky)](https://github.com/tonsky/).
+
+Terminal emulator ports by [Christopher Boone](https://cboone.github.io).
 
 ## License
 
