@@ -4,9 +4,13 @@ Terminal color themes for Alabaster Dark and Alabaster Light, available for 14 d
 
 ## Background
 
-These terminal themes are inspired by [Tonsky's (Nikita Prokopov)](https://github.com/tonsky) color scheme [Alabaster](https://github.com/tonsky/sublime-scheme-alabaster) and the philosophy outlined in his blog post ["A case against syntax highlighting"](https://tonsky.me/blog/syntax-highlighting/).
+These terminal themes are inspired by [the Alabaster color scheme](https://github.com/tonsky/sublime-scheme-alabaster) created by [Nikita Prokopov (aka Tonsky)](https://github.com/tonsky) and the philosophy outlined in his blog post ["A case against syntax highlighting"](https://tonsky.me/blog/syntax-highlighting/).
 
 In the original IDE themes, Alabaster highlights only four syntax classes: strings, constants, comments, and global definitions. Terminal themes are limited to 16 ANSI colors, but the same principle applies: use color sparingly and intentionally.
+
+## Screenshot
+
+![Alabaster Light + Dark themes for Terminal.app combined screenshot](screenshots/alabaster-composite-terminal-theme.png)
 
 ## Supported Terminals
 
