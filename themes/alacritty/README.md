@@ -2,23 +2,11 @@
 
 ## Installation
 
-### Alacritty 0.13+ (TOML config)
-
-The theme files are in YAML format. Convert to TOML using:
-
-```bash
-alacritty migrate --config-file Alabaster-Dark.toml
-```
-
-Then add to your `~/.config/alacritty/alacritty.toml`:
+Copy the theme file to `~/.config/alacritty/themes/` and add to your `~/.config/alacritty/alacritty.toml`:
 
 ```toml
 import = ["~/.config/alacritty/themes/Alabaster-Dark.toml"]
 ```
-
-### Alacritty 0.12 and earlier (YAML config)
-
-Copy the contents of the theme file into your `~/.config/alacritty/alacritty.yml`.
 
 ## Files
 

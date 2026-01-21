@@ -38,6 +38,6 @@ return {
 
 ## Links
 
-- [WezTerm Documentation](https://wezterm.org/docs.html)
+- [WezTerm Documentation](https://wezterm.org/)
 - [WezTerm Color Schemes](https://wezterm.org/config/appearance.html)
 - [WezTerm load_scheme](https://wezterm.org/config/lua/wezterm.color/load_scheme.html)
