@@ -1,6 +1,6 @@
-# Alabaster Terminal Themes
+# Alabaster Color Themes for Terminals
 
-Terminal color schemes for Alabaster Dark and Alabaster Light themes, available for 14 different terminal emulators.
+Terminal color themes for Alabaster Dark and Alabaster Light, available for 14 different terminal emulators.
 
 ## Background
 
