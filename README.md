@@ -4,7 +4,7 @@ Terminal color schemes for Alabaster Dark and Alabaster Light themes, available 
 
 ## Background
 
-These terminal themes are inspired by [Nikita Prokopov's (Tonsky)](https://tonsky.github.io) color scheme [Alabaster](https://github.com/tonsky/sublime-scheme-alabaster) and the philosophy outlined in his blog post ["A case against syntax highlighting"](https://tonsky.me/blog/syntax-highlighting/).
+These terminal themes are inspired by [Tonsky's (Nikita Prokopov)](https://github.com/tonsky) color scheme [Alabaster](https://github.com/tonsky/sublime-scheme-alabaster) and the philosophy outlined in his blog post ["A case against syntax highlighting"](https://tonsky.me/blog/syntax-highlighting/).
 
 In the original IDE themes, Alabaster highlights only four syntax classes: strings, constants, comments, and global definitions. Terminal themes are limited to 16 ANSI colors, but the same principle applies: use color sparingly and intentionally.
 
@@ -136,11 +136,12 @@ The original Sublime Text package includes five variants:
 | [alabaster.vim](https://github.com/sderev/alabaster.vim)                 | sderev   | Vim colorschemes with five variants: light, dark, background-highlighted, and monochrome. |
 | [vim-colors-alabaster](https://github.com/agudulin/vim-colors-alabaster) | agudulin | Vim port of the original theme.                                                           |
 
-## References
+## See also
 
+- [Fira Code](https://github.com/tonsky/FiraCode/) - Tonsky's beautiful update of [Fira Mono](https://github.com/mozilla/Fira) for coding, with monospaced ligatures. Pairs very well with Alabaster.
 - ["A case against syntax highlighting"](https://tonsky.me/blog/syntax-highlighting/) - Tonsky's blog post explaining the philosophy behind minimal highlighting.
 - [sublime-scheme-alabaster](https://github.com/tonsky/sublime-scheme-alabaster) - The original Alabaster theme repository with design rationale.
 
 ## License
 
-[MIT](LICENSE)
+[MIT license.](LICENSE)
