@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/TheFoolishPupil/alabaster-variant-theme.git"
+        "url": "https://github.com/cboone/alabaster-themes-for-terminals.git"
     },
     "keywords": [
         "terminal",
