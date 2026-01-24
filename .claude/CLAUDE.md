@@ -15,49 +15,30 @@ The themes follow the Alabaster philosophy of minimal, intentional syntax highli
 - `screenshots/` - Theme preview images
 - `docs/` - Additional documentation
 
-## Color Palettes
+## Color Palette
 
 When modifying or adding themes, use these canonical hex values:
 
-### Alabaster Dark
-| Color | Hex |
-|-------|-----|
-| Background/Black | `#202020` |
-| Foreground/White | `#e7e7e7` |
-| Red | `#ff7171` |
-| Green | `#C3E88D` |
-| Yellow | `#ffb45e` |
-| Blue | `#5f9dff` |
-| Magenta | `#C792EA` |
-| Cyan | `#89DDFF` |
-| Bright Black | `#777777` |
-| Bright Red | `#ff8a8a` |
-| Bright Green | `#d5f0a2` |
-| Bright Yellow | `#ffc880` |
-| Bright Blue | `#85b5ff` |
-| Bright Magenta | `#d9b3f0` |
-| Bright Cyan | `#b0e8ff` |
-| Bright White | `#ffffff` |
-
-### Alabaster Light
-| Color | Hex |
-|-------|-----|
-| Background/White | `#f5f5f5` |
-| Foreground/Black | `#000000` |
-| Red | `#AA3731` |
-| Green | `#448C27` |
-| Yellow | `#9A6515` |
-| Blue | `#325CC0` |
-| Magenta | `#811abc` |
-| Cyan | `#4078a0` |
-| Bright Black | `#777777` |
-| Bright Red | `#c04038` |
-| Bright Green | `#5da03a` |
-| Bright Yellow | `#b8860b` |
-| Bright Blue | `#4a78d0` |
-| Bright Magenta | `#9932cc` |
-| Bright Cyan | `#5090b0` |
-| Bright White | `#ffffff` |
+| ANSI | Color          | Dark      | Light     |
+| ---: | -------------- | --------- | --------- |
+|    0 | Black          | `#202020` | `#000000` |
+|    1 | Red            | `#ff7171` | `#AA3731` |
+|    2 | Green          | `#C3E88D` | `#448C27` |
+|    3 | Yellow         | `#ffb45e` | `#9A6515` |
+|    4 | Blue           | `#5f9dff` | `#325CC0` |
+|    5 | Magenta        | `#C792EA` | `#811abc` |
+|    6 | Cyan           | `#89DDFF` | `#4078a0` |
+|    7 | White          | `#e7e7e7` | `#f5f5f5` |
+|    8 | Bright Black   | `#777777` | `#777777` |
+|    9 | Bright Red     | `#ff8a8a` | `#c04038` |
+|   10 | Bright Green   | `#d5f0a2` | `#5da03a` |
+|   11 | Bright Yellow  | `#ffc880` | `#b8860b` |
+|   12 | Bright Blue    | `#85b5ff` | `#4a78d0` |
+|   13 | Bright Magenta | `#d9b3f0` | `#9932cc` |
+|   14 | Bright Cyan    | `#b0e8ff` | `#5090b0` |
+|   15 | Bright White   | `#ffffff` | `#ffffff` |
+|    — | Background     | `#202020` | `#f5f5f5` |
+|    — | Foreground     | `#e7e7e7` | `#000000` |
 
 ## Adding a New Terminal
 
