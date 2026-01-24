@@ -35,51 +35,26 @@ See the README in each subdirectory for terminal-specific installation instructi
 
 ## Color Palette
 
-### Alabaster Dark
-
-| Color          | Swatch                                                   | Hex       | Usage               |
-| -------------- | -------------------------------------------------------- | --------- | ------------------- |
-| Background     | ![#202020](https://placehold.co/20x20/202020/202020.png) | `#202020` | Terminal background |
-| Black          | ![#202020](https://placehold.co/20x20/202020/202020.png) | `#202020` | ANSI black          |
-| Blue           | ![#5f9dff](https://placehold.co/20x20/5f9dff/5f9dff.png) | `#5f9dff` | ANSI blue           |
-| Bright Black   | ![#777777](https://placehold.co/20x20/777777/777777.png) | `#777777` | ANSI bright black   |
-| Bright Blue    | ![#85b5ff](https://placehold.co/20x20/85b5ff/85b5ff.png) | `#85b5ff` | ANSI bright blue    |
-| Bright Cyan    | ![#b0e8ff](https://placehold.co/20x20/b0e8ff/b0e8ff.png) | `#b0e8ff` | ANSI bright cyan    |
-| Bright Green   | ![#d5f0a2](https://placehold.co/20x20/d5f0a2/d5f0a2.png) | `#d5f0a2` | ANSI bright green   |
-| Bright Magenta | ![#d9b3f0](https://placehold.co/20x20/d9b3f0/d9b3f0.png) | `#d9b3f0` | ANSI bright magenta |
-| Bright Red     | ![#ff8a8a](https://placehold.co/20x20/ff8a8a/ff8a8a.png) | `#ff8a8a` | ANSI bright red     |
-| Bright White   | ![#ffffff](https://placehold.co/20x20/ffffff/ffffff.png) | `#ffffff` | ANSI bright white   |
-| Bright Yellow  | ![#ffc880](https://placehold.co/20x20/ffc880/ffc880.png) | `#ffc880` | ANSI bright yellow  |
-| Cyan           | ![#89DDFF](https://placehold.co/20x20/89DDFF/89DDFF.png) | `#89DDFF` | ANSI cyan           |
-| Foreground     | ![#e7e7e7](https://placehold.co/20x20/e7e7e7/e7e7e7.png) | `#e7e7e7` | Default text        |
-| Green          | ![#C3E88D](https://placehold.co/20x20/C3E88D/C3E88D.png) | `#C3E88D` | ANSI green          |
-| Magenta        | ![#C792EA](https://placehold.co/20x20/C792EA/C792EA.png) | `#C792EA` | ANSI magenta        |
-| Red            | ![#ff7171](https://placehold.co/20x20/ff7171/ff7171.png) | `#ff7171` | ANSI red            |
-| White          | ![#e7e7e7](https://placehold.co/20x20/e7e7e7/e7e7e7.png) | `#e7e7e7` | ANSI white          |
-| Yellow         | ![#ffb45e](https://placehold.co/20x20/ffb45e/ffb45e.png) | `#ffb45e` | ANSI yellow         |
-
-### Alabaster Light
-
-| Color          | Swatch                                                   | Hex       | Usage               |
-| -------------- | -------------------------------------------------------- | --------- | ------------------- |
-| Background     | ![#f5f5f5](https://placehold.co/20x20/f5f5f5/f5f5f5.png) | `#f5f5f5` | Terminal background |
-| Black          | ![#000000](https://placehold.co/20x20/000000/000000.png) | `#000000` | ANSI black          |
-| Blue           | ![#325CC0](https://placehold.co/20x20/325CC0/325CC0.png) | `#325CC0` | ANSI blue           |
-| Bright Black   | ![#777777](https://placehold.co/20x20/777777/777777.png) | `#777777` | ANSI bright black   |
-| Bright Blue    | ![#4a78d0](https://placehold.co/20x20/4a78d0/4a78d0.png) | `#4a78d0` | ANSI bright blue    |
-| Bright Cyan    | ![#5090b0](https://placehold.co/20x20/5090b0/5090b0.png) | `#5090b0` | ANSI bright cyan    |
-| Bright Green   | ![#5da03a](https://placehold.co/20x20/5da03a/5da03a.png) | `#5da03a` | ANSI bright green   |
-| Bright Magenta | ![#9932cc](https://placehold.co/20x20/9932cc/9932cc.png) | `#9932cc` | ANSI bright magenta |
-| Bright Red     | ![#c04038](https://placehold.co/20x20/c04038/c04038.png) | `#c04038` | ANSI bright red     |
-| Bright White   | ![#ffffff](https://placehold.co/20x20/ffffff/ffffff.png) | `#ffffff` | ANSI bright white   |
-| Bright Yellow  | ![#b8860b](https://placehold.co/20x20/b8860b/b8860b.png) | `#b8860b` | ANSI bright yellow  |
-| Cyan           | ![#4078a0](https://placehold.co/20x20/4078a0/4078a0.png) | `#4078a0` | ANSI cyan           |
-| Foreground     | ![#000000](https://placehold.co/20x20/000000/000000.png) | `#000000` | Default text        |
-| Green          | ![#448C27](https://placehold.co/20x20/448C27/448C27.png) | `#448C27` | ANSI green          |
-| Magenta        | ![#811abc](https://placehold.co/20x20/811abc/811abc.png) | `#811abc` | ANSI magenta        |
-| Red            | ![#AA3731](https://placehold.co/20x20/AA3731/AA3731.png) | `#AA3731` | ANSI red            |
-| White          | ![#f5f5f5](https://placehold.co/20x20/f5f5f5/f5f5f5.png) | `#f5f5f5` | ANSI white          |
-| Yellow         | ![#9A6515](https://placehold.co/20x20/9A6515/9A6515.png) | `#9A6515` | ANSI yellow         |
+| ANSI | Color          | Dark                                                                        | Light                                                                       |
+| ---: | -------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+|    0 | Black          | ![#202020](https://placehold.co/20x20/202020/202020.png) `#202020`          | ![#000000](https://placehold.co/20x20/000000/000000.png) `#000000`          |
+|    1 | Red            | ![#ff7171](https://placehold.co/20x20/ff7171/ff7171.png) `#ff7171`          | ![#AA3731](https://placehold.co/20x20/AA3731/AA3731.png) `#AA3731`          |
+|    2 | Green          | ![#C3E88D](https://placehold.co/20x20/C3E88D/C3E88D.png) `#C3E88D`          | ![#448C27](https://placehold.co/20x20/448C27/448C27.png) `#448C27`          |
+|    3 | Yellow         | ![#ffb45e](https://placehold.co/20x20/ffb45e/ffb45e.png) `#ffb45e`          | ![#9A6515](https://placehold.co/20x20/9A6515/9A6515.png) `#9A6515`          |
+|    4 | Blue           | ![#5f9dff](https://placehold.co/20x20/5f9dff/5f9dff.png) `#5f9dff`          | ![#325CC0](https://placehold.co/20x20/325CC0/325CC0.png) `#325CC0`          |
+|    5 | Magenta        | ![#C792EA](https://placehold.co/20x20/C792EA/C792EA.png) `#C792EA`          | ![#811abc](https://placehold.co/20x20/811abc/811abc.png) `#811abc`          |
+|    6 | Cyan           | ![#89DDFF](https://placehold.co/20x20/89DDFF/89DDFF.png) `#89DDFF`          | ![#4078a0](https://placehold.co/20x20/4078a0/4078a0.png) `#4078a0`          |
+|    7 | White          | ![#e7e7e7](https://placehold.co/20x20/e7e7e7/e7e7e7.png) `#e7e7e7`          | ![#f5f5f5](https://placehold.co/20x20/f5f5f5/f5f5f5.png) `#f5f5f5`          |
+|    8 | Bright Black   | ![#777777](https://placehold.co/20x20/777777/777777.png) `#777777`          | ![#777777](https://placehold.co/20x20/777777/777777.png) `#777777`          |
+|    9 | Bright Red     | ![#ff8a8a](https://placehold.co/20x20/ff8a8a/ff8a8a.png) `#ff8a8a`          | ![#c04038](https://placehold.co/20x20/c04038/c04038.png) `#c04038`          |
+|   10 | Bright Green   | ![#d5f0a2](https://placehold.co/20x20/d5f0a2/d5f0a2.png) `#d5f0a2`          | ![#5da03a](https://placehold.co/20x20/5da03a/5da03a.png) `#5da03a`          |
+|   11 | Bright Yellow  | ![#ffc880](https://placehold.co/20x20/ffc880/ffc880.png) `#ffc880`          | ![#b8860b](https://placehold.co/20x20/b8860b/b8860b.png) `#b8860b`          |
+|   12 | Bright Blue    | ![#85b5ff](https://placehold.co/20x20/85b5ff/85b5ff.png) `#85b5ff`          | ![#4a78d0](https://placehold.co/20x20/4a78d0/4a78d0.png) `#4a78d0`          |
+|   13 | Bright Magenta | ![#d9b3f0](https://placehold.co/20x20/d9b3f0/d9b3f0.png) `#d9b3f0`          | ![#9932cc](https://placehold.co/20x20/9932cc/9932cc.png) `#9932cc`          |
+|   14 | Bright Cyan    | ![#b0e8ff](https://placehold.co/20x20/b0e8ff/b0e8ff.png) `#b0e8ff`          | ![#5090b0](https://placehold.co/20x20/5090b0/5090b0.png) `#5090b0`          |
+|   15 | Bright White   | ![#ffffff](https://placehold.co/20x20/ffffff/ffffff.png) `#ffffff`          | ![#ffffff](https://placehold.co/20x20/ffffff/ffffff.png) `#ffffff`          |
+|    — | Background     | ![#202020](https://placehold.co/20x20/202020/202020.png) `#202020`          | ![#f5f5f5](https://placehold.co/20x20/f5f5f5/f5f5f5.png) `#f5f5f5`          |
+|    — | Foreground     | ![#e7e7e7](https://placehold.co/20x20/e7e7e7/e7e7e7.png) `#e7e7e7`          | ![#000000](https://placehold.co/20x20/000000/000000.png) `#000000`          |
 
 ## Related Themes
 
@@ -164,7 +139,7 @@ Also available as [a VSCode color theme](https://github.com/cboone/writer-theme-
 
 Original theme by [Nikita Prokopov (aka Tonsky)](https://github.com/tonsky/).
 
-Terminal emulator ports by [Christopher Boone](https://cboone.github.io).
+Terminal emulator by [Christopher Boone](https://cboone.github.io).
 
 ## License
 
