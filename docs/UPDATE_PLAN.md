@@ -85,7 +85,7 @@ To better match the canonical Alabaster themes from Tonsky's original and the of
 | Alacritty | 2 TOML files | Hex with `#` prefix |
 | Contour | 2 YAML files | Hex with `#` or `0x` prefix |
 | foot | 2 INI files | Hex **without** `#` prefix |
-| Ghostty | 2 files | `palette = N=RRGGBB` format |
+| Ghostty | 2 files | `palette = N=#RRGGBB` format |
 | iTerm2 | 2 XML plist files | RGB components 0.0-1.0 |
 | Kitty | 2 CONF files | `colorN #RRGGBB` format |
 | Konsole | 2 colorscheme files | RGB decimal `R,G,B` format |
